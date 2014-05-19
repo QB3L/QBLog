@@ -1,14 +1,12 @@
 QBLog
 =====
 
-Quick way to redirect any console logs on iOS applications to a specified file. Great for putting on beta apps for testers.
+Quick and way to redirect any console logs on iOS applications to a specified file. Great for putting on beta apps for testers.
 
 
 Screenshots
 --------------------
 ![QBLog](http://www.topbalancesoftware.com/apps/gitmedia/qblog.gif)
-
-
 
 Getting Started
 =================
@@ -20,9 +18,14 @@ Install
 
 Usage
 --------------------
-1. `[LogFileViewController redirectLogToFile];` to direc to a file
-2. `[LogFileViewController returnLogToConsole];` to reset back
-3. use `- (void)showInViewController:(UIViewController*)viewController` to show
+1. `[LogFileViewController redirectLogToFile];` to direct to a file
+2. `[LogFileViewController returnLogToConsole];` to reset back to the console
+3. use `- (void)showInViewController:(UIViewController*)viewController` to show a view with the current log
+
+Features
+--------------------
+1. Offers simple viewcontroller that lets users view the log
+2. You can clear or email the log file.
 
 MIT License
 --------------------
