@@ -476,6 +476,7 @@
 				45C264B3192A2CCB00D1A7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45C264B4192A2CCB00D1A7B7 /* Build configuration list for PBXNativeTarget "QBLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				45C264B6192A2CCB00D1A7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

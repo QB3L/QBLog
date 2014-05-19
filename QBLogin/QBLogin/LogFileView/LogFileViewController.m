@@ -1,9 +1,9 @@
     //
 //  LogFileViewController.m
-//  MobileMafia
+//  TopBalance Software
 //
 //  Created by Ruben Nieves on 1/31/11.
-//  Copyright 2011 Mobile Mafia. All rights reserved.
+//  Copyright 2011 TopBalance Software. All rights reserved.
 //
 
 #import "LogFileViewController.h"
