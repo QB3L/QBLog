@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C26483192A2CCB00D1A7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C26482192A2CCB00D1A7B7 /* Foundation.framework */; };
+		45C26485192A2CCB00D1A7B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C26484192A2CCB00D1A7B7 /* CoreGraphics.framework */; };
+		45C26487192A2CCB00D1A7B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C26486192A2CCB00D1A7B7 /* UIKit.framework */; };
+		45C2648D192A2CCB00D1A7B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C2648B192A2CCB00D1A7B7 /* InfoPlist.strings */; };
+		45C2648F192A2CCB00D1A7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2648E192A2CCB00D1A7B7 /* main.m */; };
+		45C26493192A2CCB00D1A7B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C26492192A2CCB00D1A7B7 /* AppDelegate.m */; };
+		45C26496192A2CCB00D1A7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C26494192A2CCB00D1A7B7 /* Main.storyboard */; };
+		45C26499192A2CCB00D1A7B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C26498192A2CCB00D1A7B7 /* ViewController.m */; };
+		45C2649B192A2CCB00D1A7B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2649A192A2CCB00D1A7B7 /* Images.xcassets */; };
+		45C264A2192A2CCB00D1A7B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C264A1192A2CCB00D1A7B7 /* XCTest.framework */; };
+		45C264A3192A2CCB00D1A7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C26482192A2CCB00D1A7B7 /* Foundation.framework */; };
+		45C264A4192A2CCB00D1A7B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C26486192A2CCB00D1A7B7 /* UIKit.framework */; };
+		45C264AC192A2CCB00D1A7B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C264AA192A2CCB00D1A7B7 /* InfoPlist.strings */; };
+		45C264AE192A2CCB00D1A7B7 /* QBLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C264AD192A2CCB00D1A7B7 /* QBLoginTests.m */; };
+		45C264C0192A2D4900D1A7B7 /* LogFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C264BE192A2D4900D1A7B7 /* LogFileViewController.m */; };
+		45C264C1192A2D4900D1A7B7 /* LogFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C264BF192A2D4900D1A7B7 /* LogFileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C264A5192A2CCB00D1A7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C26477192A2CCB00D1A7B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C2647E192A2CCB00D1A7B7;
+			remoteInfo = QBLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C2647F192A2CCB00D1A7B7 /* QBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C26482192A2CCB00D1A7B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45C26484192A2CCB00D1A7B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45C26486192A2CCB00D1A7B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45C2648A192A2CCB00D1A7B7 /* QBLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QBLogin-Info.plist"; sourceTree = "<group>"; };
+		45C2648C192A2CCB00D1A7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45C2648E192A2CCB00D1A7B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C26490192A2CCB00D1A7B7 /* QBLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QBLogin-Prefix.pch"; sourceTree = "<group>"; };
+		45C26491192A2CCB00D1A7B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45C26492192A2CCB00D1A7B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45C26495192A2CCB00D1A7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C26497192A2CCB00D1A7B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45C26498192A2CCB00D1A7B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45C2649A192A2CCB00D1A7B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45C264A0192A2CCB00D1A7B7 /* QBLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C264A1192A2CCB00D1A7B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45C264A9192A2CCB00D1A7B7 /* QBLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QBLoginTests-Info.plist"; sourceTree = "<group>"; };
+		45C264AB192A2CCB00D1A7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45C264AD192A2CCB00D1A7B7 /* QBLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBLoginTests.m; sourceTree = "<group>"; };
+		45C264BD192A2D4900D1A7B7 /* LogFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFileViewController.h; sourceTree = "<group>"; };
+		45C264BE192A2D4900D1A7B7 /* LogFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFileViewController.m; sourceTree = "<group>"; };
+		45C264BF192A2D4900D1A7B7 /* LogFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogFileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C2647C192A2CCB00D1A7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C26485192A2CCB00D1A7B7 /* CoreGraphics.framework in Frameworks */,
+				45C26487192A2CCB00D1A7B7 /* UIKit.framework in Frameworks */,
+				45C26483192A2CCB00D1A7B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C2649D192A2CCB00D1A7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C264A2192A2CCB00D1A7B7 /* XCTest.framework in Frameworks */,
+				45C264A4192A2CCB00D1A7B7 /* UIKit.framework in Frameworks */,
+				45C264A3192A2CCB00D1A7B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C26476192A2CCB00D1A7B7 = {
+			isa = PBXGroup;
+			children = (
+				45C26488192A2CCB00D1A7B7 /* QBLogin */,
+				45C264A7192A2CCB00D1A7B7 /* QBLoginTests */,
+				45C26481192A2CCB00D1A7B7 /* Frameworks */,
+				45C26480192A2CCB00D1A7B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C26480192A2CCB00D1A7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C2647F192A2CCB00D1A7B7 /* QBLogin.app */,
+				45C264A0192A2CCB00D1A7B7 /* QBLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C26481192A2CCB00D1A7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C26482192A2CCB00D1A7B7 /* Foundation.framework */,
+				45C26484192A2CCB00D1A7B7 /* CoreGraphics.framework */,
+				45C26486192A2CCB00D1A7B7 /* UIKit.framework */,
+				45C264A1192A2CCB00D1A7B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C26488192A2CCB00D1A7B7 /* QBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				45C26491192A2CCB00D1A7B7 /* AppDelegate.h */,
+				45C26492192A2CCB00D1A7B7 /* AppDelegate.m */,
+				45C26494192A2CCB00D1A7B7 /* Main.storyboard */,
+				45C26497192A2CCB00D1A7B7 /* ViewController.h */,
+				45C26498192A2CCB00D1A7B7 /* ViewController.m */,
+				45C264BC192A2D4900D1A7B7 /* LogFileView */,
+				45C2649A192A2CCB00D1A7B7 /* Images.xcassets */,
+				45C26489192A2CCB00D1A7B7 /* Supporting Files */,
+			);
+			path = QBLogin;
+			sourceTree = "<group>";
+		};
+		45C26489192A2CCB00D1A7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C2648A192A2CCB00D1A7B7 /* QBLogin-Info.plist */,
+				45C2648B192A2CCB00D1A7B7 /* InfoPlist.strings */,
+				45C2648E192A2CCB00D1A7B7 /* main.m */,
+				45C26490192A2CCB00D1A7B7 /* QBLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C264A7192A2CCB00D1A7B7 /* QBLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C264AD192A2CCB00D1A7B7 /* QBLoginTests.m */,
+				45C264A8192A2CCB00D1A7B7 /* Supporting Files */,
+			);
+			path = QBLoginTests;
+			sourceTree = "<group>";
+		};
+		45C264A8192A2CCB00D1A7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C264A9192A2CCB00D1A7B7 /* QBLoginTests-Info.plist */,
+				45C264AA192A2CCB00D1A7B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C264BC192A2D4900D1A7B7 /* LogFileView */ = {
+			isa = PBXGroup;
+			children = (
+				45C264BD192A2D4900D1A7B7 /* LogFileViewController.h */,
+				45C264BE192A2D4900D1A7B7 /* LogFileViewController.m */,
+				45C264BF192A2D4900D1A7B7 /* LogFileViewController.xib */,
+			);
+			path = LogFileView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C2647E192A2CCB00D1A7B7 /* QBLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C264B1192A2CCB00D1A7B7 /* Build configuration list for PBXNativeTarget "QBLogin" */;
+			buildPhases = (
+				45C2647B192A2CCB00D1A7B7 /* Sources */,
+				45C2647C192A2CCB00D1A7B7 /* Frameworks */,
+				45C2647D192A2CCB00D1A7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBLogin;
+			productName = QBLogin;
+			productReference = 45C2647F192A2CCB00D1A7B7 /* QBLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C2649F192A2CCB00D1A7B7 /* QBLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C264B4192A2CCB00D1A7B7 /* Build configuration list for PBXNativeTarget "QBLoginTests" */;
+			buildPhases = (
+				45C2649C192A2CCB00D1A7B7 /* Sources */,
+				45C2649D192A2CCB00D1A7B7 /* Frameworks */,
+				45C2649E192A2CCB00D1A7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C264A6192A2CCB00D1A7B7 /* PBXTargetDependency */,
+			);
+			name = QBLoginTests;
+			productName = QBLoginTests;
+			productReference = 45C264A0192A2CCB00D1A7B7 /* QBLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C26477192A2CCB00D1A7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TopBalance Software";
+				TargetAttributes = {
+					45C2649F192A2CCB00D1A7B7 = {
+						TestTargetID = 45C2647E192A2CCB00D1A7B7;
+					};
+				};
+			};
+			buildConfigurationList = 45C2647A192A2CCB00D1A7B7 /* Build configuration list for PBXProject "QBLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C26476192A2CCB00D1A7B7;
+			productRefGroup = 45C26480192A2CCB00D1A7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C2647E192A2CCB00D1A7B7 /* QBLogin */,
+				45C2649F192A2CCB00D1A7B7 /* QBLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C2647D192A2CCB00D1A7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C2649B192A2CCB00D1A7B7 /* Images.xcassets in Resources */,
+				45C2648D192A2CCB00D1A7B7 /* InfoPlist.strings in Resources */,
+				45C26496192A2CCB00D1A7B7 /* Main.storyboard in Resources */,
+				45C264C1192A2D4900D1A7B7 /* LogFileViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C2649E192A2CCB00D1A7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C264AC192A2CCB00D1A7B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C2647B192A2CCB00D1A7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C26499192A2CCB00D1A7B7 /* ViewController.m in Sources */,
+				45C26493192A2CCB00D1A7B7 /* AppDelegate.m in Sources */,
+				45C2648F192A2CCB00D1A7B7 /* main.m in Sources */,
+				45C264C0192A2D4900D1A7B7 /* LogFileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C2649C192A2CCB00D1A7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C264AE192A2CCB00D1A7B7 /* QBLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C264A6192A2CCB00D1A7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C2647E192A2CCB00D1A7B7 /* QBLogin */;
+			targetProxy = 45C264A5192A2CCB00D1A7B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C2648B192A2CCB00D1A7B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C2648C192A2CCB00D1A7B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45C26494192A2CCB00D1A7B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C26495192A2CCB00D1A7B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C264AA192A2CCB00D1A7B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C264AB192A2CCB00D1A7B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C264AF192A2CCB00D1A7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C264B0192A2CCB00D1A7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C264B2192A2CCB00D1A7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBLogin/QBLogin-Prefix.pch";
+				INFOPLIST_FILE = "QBLogin/QBLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45C264B3192A2CCB00D1A7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBLogin/QBLogin-Prefix.pch";
+				INFOPLIST_FILE = "QBLogin/QBLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45C264B5192A2CCB00D1A7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QBLogin.app/QBLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBLogin/QBLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QBLoginTests/QBLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45C264B6192A2CCB00D1A7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QBLogin.app/QBLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBLogin/QBLogin-Prefix.pch";
+				INFOPLIST_FILE = "QBLoginTests/QBLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C2647A192A2CCB00D1A7B7 /* Build configuration list for PBXProject "QBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C264AF192A2CCB00D1A7B7 /* Debug */,
+				45C264B0192A2CCB00D1A7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C264B1192A2CCB00D1A7B7 /* Build configuration list for PBXNativeTarget "QBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C264B2192A2CCB00D1A7B7 /* Debug */,
+				45C264B3192A2CCB00D1A7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C264B4192A2CCB00D1A7B7 /* Build configuration list for PBXNativeTarget "QBLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C264B5192A2CCB00D1A7B7 /* Debug */,
+				45C264B6192A2CCB00D1A7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C26477192A2CCB00D1A7B7 /* Project object */;
+}
