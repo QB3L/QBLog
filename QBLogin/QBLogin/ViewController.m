@@ -44,7 +44,8 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     NSLog(@"%@",textField.text);
     textField.text = @"";
-	return YES;
+    [self openLogButtonPressed];
+    return YES;
 }
 
 - (void)viewDidLoad
